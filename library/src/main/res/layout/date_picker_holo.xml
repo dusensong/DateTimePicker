@@ -16,7 +16,6 @@
         android:orientation="horizontal">
 
         <!-- Month -->
-
         <com.lany.picker.NumberPicker
             android:id="@+id/month"
             android:layout_width="57dp"
@@ -28,7 +27,6 @@
             app:selectionDividerHeight="1dp" />
 
         <!-- Day -->
-
         <com.lany.picker.NumberPicker
             android:id="@+id/day"
             android:layout_width="57dp"
@@ -40,10 +38,9 @@
             app:selectionDividerHeight="1dp" />
 
         <!-- Year -->
-
         <com.lany.picker.NumberPicker
             android:id="@+id/year"
-            android:layout_width="wrap_content"
+            android:layout_width="57dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
@@ -53,7 +50,6 @@
     </LinearLayout>
 
     <!-- calendar view -->
-
     <com.lany.picker.CalendarView
         android:id="@+id/calendar_view"
         android:layout_width="245dp"
