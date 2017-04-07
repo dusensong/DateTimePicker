@@ -7,7 +7,6 @@
 
 
     <!-- hour -->
-
     <com.lany.picker.NumberPicker
         android:id="@+id/hour"
         android:layout_width="wrap_content"
